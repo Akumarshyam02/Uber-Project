@@ -8,7 +8,7 @@ import CaptainContext from './context/CapatainContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<BrowserRouter basename="/Uber-Clone">
+<BrowserRouter basename="/Uber-project/">
 <CaptainContext>
      <UserContext> {/* ✅ Wrap everything in your context */}
         <App />
