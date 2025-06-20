@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Uber-Project/', 
+  base: './'  // Yeh line 404 error ko fix karti hai
 })
